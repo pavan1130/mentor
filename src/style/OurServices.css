@@ -1,0 +1,71 @@
+/* OurServices.css */
+
+.our-services {
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+.our-services h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.service h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+}
+
+.short-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: max-height 0.3s ease-in-out;
+  max-height: 60px;
+}
+
+.full-description {
+  transition: max-height 0.3s ease-in-out;
+  max-height: 1000px;
+}
+
+.view-more-button {
+  font-size: 12px;
+  padding: 6px 12px;
+}
+
+.view-more-button::after {
+  content: "\25BC";
+  margin-left: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service:hover .view-more-button::after {
+  transform: rotate(180deg);
+}
+
+.service:hover .short-description {
+  max-height: 1000px;
+}
+
+.service:hover .full-description {
+  max-height: 60px;
+}

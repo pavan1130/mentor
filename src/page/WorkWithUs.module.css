@@ -1,0 +1,116 @@
+.blueStrip {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(161, 243, 229);
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.bigHeading {
+  margin-left: 668px;
+  margin-bottom: -18px;
+  margin-top: 0px;
+  font-size: 70px;
+}
+
+.workWithUsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.leftColumn {
+  margin: auto;
+  width: 500px;
+  background-color: #83ebeb;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.boldText {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.formContainer {
+  margin-top: 20px;
+}
+
+.formGroup {
+  margin-bottom: 10px;
+}
+
+.textInput {
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(209, 219, 219);
+  border-radius: 78px;
+  padding: 10px 10px;
+}
+
+.textInput[name="firstName"],
+.textInput[name="lastName"],
+.textInput[name="email"],
+.textInput[name="mobileNo"] {
+  border-radius: 50px;
+}
+
+.submitButton {
+  padding: 5px 10px;
+  background-color: rgb(64, 83, 157);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+.rightColumn {
+  width: 50%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.footer {
+  background-color: rgb(161, 243, 229);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footerLinks a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footerIcons {
+  display: flex;
+  align-items: center;
+}
+
+.footerIcons a {
+  margin-left: 10px;
+  color: #000000;
+  text-decoration: none;
+}
